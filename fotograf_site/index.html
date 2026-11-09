@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Фотографии природы, города и важных мгновений. Портфолио фотографа.">
+  <title>Фотограф — портфолио</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">ФОТО<span>ГРАФ</span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#portfolio">Портфолио</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="header-cta" href="#contact">Обсудить съёмку <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> ФОТОГРАФИЯ · ИСТОРИИ В КАДРЕ</p>
+        <h1>Замечать<br><em>красоту</em> вокруг</h1>
+        <p class="hero-copy">Сохраняю атмосферу мест, эмоции и маленькие детали, из которых складываются большие воспоминания.</p>
+        <a class="round-link" href="#portfolio">Смотреть работы <span>↓</span></a>
+      </div>
+      <div class="hero-note">МОМЕНТЫ, КОТОРЫЕ ХОЧЕТСЯ СОХРАНИТЬ</div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">ИЗБРАННЫЕ РАБОТЫ</p>
+          <h2>Моё <em>портфолио</em></h2>
+        </div>
+        <p class="section-description">Природа, архитектура и жизнь<br>в её естественной красоте.</p>
+      </div>
+      <div class="gallery">
+        <button class="photo photo-tall" data-full="images/forest-path.jpg" data-caption="Тишина осеннего леса">
+          <img src="images/forest-path.jpg" alt="Солнечный свет в осеннем лесу" loading="lazy"><span>01 / ЛЕС</span>
+        </button>
+        <button class="photo photo-wide" data-full="images/fireworks.jpg" data-caption="Вечерний фейерверк">
+          <img src="images/fireworks.jpg" alt="Золотой праздничный фейерверк в ночном небе" loading="lazy"><span>02 / СОБЫТИЯ</span>
+        </button>
+        <button class="photo" data-full="images/blue-dome.jpg" data-caption="Архитектура и небо">
+          <img src="images/blue-dome.jpg" alt="Синий купол здания на фоне облачного неба" loading="lazy"><span>03 / АРХИТЕКТУРА</span>
+        </button>
+        <button class="photo" data-full="images/wooden-trees.jpg" data-caption="Деревянные ёлочки ручной работы">
+          <img src="images/wooden-trees.jpg" alt="Две деревянные декоративные ёлочки" loading="lazy"><span>04 / ДЕТАЛИ</span>
+        </button>
+        <button class="photo photo-wide" data-full="images/music-phone.jpg" data-caption="Музыка и осеннее настроение">
+          <img src="images/music-phone.jpg" alt="Телефон с музыкальным плеером среди осенней листвы" loading="lazy"><span>05 / НАСТРОЕНИЕ</span>
+        </button>
+        <button class="photo" data-full="images/birds-autumn.jpg" data-caption="Птицы в осеннем небе">
+          <img src="images/birds-autumn.jpg" alt="Стая птиц в голубом осеннем небе" loading="lazy"><span>06 / ПРИРОДА</span>
+        </button>
+        <button class="photo" data-full="images/trees-sky.jpg" data-caption="Свет сквозь кроны">
+          <img src="images/trees-sky.jpg" alt="Высокие деревья на фоне яркого неба" loading="lazy"><span>07 / СВЕТ</span>
+        </button>
+        <button class="photo" data-full="images/reflection-dome.jpg" data-caption="Отражение в воде">
+          <img src="images/reflection-dome.jpg" alt="Отражение архитектуры в воде" loading="lazy"><span>08 / ОТРАЖЕНИЯ</span>
+        </button>
+        <button class="photo" data-full="images/water-reflection.jpg" data-caption="Осенние отражения">
+          <img src="images/water-reflection.jpg" alt="Осенние листья и отражение деревьев в воде" loading="lazy"><span>09 / ОСЕНЬ</span>
+        </button>
+        <button class="photo photo-wide" data-full="images/birds-sky.jpg" data-caption="Полёт над деревьями">
+          <img src="images/birds-sky.jpg" alt="Птицы летят над осенними деревьями" loading="lazy"><span>10 / МОМЕНТ</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-mark">“</div>
+      <div class="about-content">
+        <p class="eyebrow">НЕМНОГО ОБО МНЕ</p>
+        <h2>Фотография — это<br><em>умение чувствовать</em></h2>
+        <p>Мне нравится ловить естественный свет, интересные ракурсы и настроение момента. В каждом кадре ищу не идеальность, а характер и историю.</p>
+        <p class="signature">Ваш фотограф</p>
+        <p class="edit-note">Здесь можно добавить своё имя и короткий рассказ о себе.</p>
+      </div>
+      <div class="about-image"><img src="images/trees-sky.jpg" alt="Солнечный свет между деревьями" loading="lazy"></div>
+    </section>
+  <section class="contact section" id="contact">
+      <p class="eyebrow">ЕСТЬ ИДЕЯ ДЛЯ СЪЁМКИ?</p>
+      <h2>Давайте создадим<br><em>что-то настоящее</em></h2>
+      <p>Напишите мне — обсудим вашу идею, формат и удобное время</p>
+      <p class="contact-place">Фотограф в Петрозаводске и Карелии</p>
+      <div class="contact-links">
+        <a class="contact-link" href="https://vk.ru/tutatata" target="_blank" rel="noopener">Написать в VK <span>↗</span></a>
+        <a class="contact-phone" href="tel:+79003500616">+7 (900) 350-06-16</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#top">ФОТО<span>ГРАФ</span></a>
+    <p>© <span id="year"></span> Фотопортфолио. Все права защищены.</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Закрыть">×</button>
+    <button class="lightbox-prev" aria-label="Предыдущее фото">‹</button>
+    <figure><img src="" alt=""><figcaption></figcaption></figure>
+    <button class="lightbox-next" aria-label="Следующее фото">›</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
